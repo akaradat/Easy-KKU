@@ -110,7 +110,6 @@ public class SignUpActivity extends AppCompatActivity {
             simpleFTP.stor(new File(imagePathString));
             simpleFTP.disconnect();
 
-
         } catch (Exception e) {
             Log.d("12novv1", "e simpleFTP ==> " + e.toString());
         }
