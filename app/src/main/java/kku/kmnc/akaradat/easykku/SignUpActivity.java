@@ -39,7 +39,7 @@ public class SignUpActivity extends AppCompatActivity {
             imagePathString, imageNameString;
     private Uri uri;
     private boolean aBoolean = true;
-    private String urlAddUser = "http://swiftcodingthai.com/kku/add_user_Array.php";
+    private String urlAddUser = "http://swiftcodingthai.com/kku/add_user_master.php";
     private String urlImage = "http://swiftcodingthai.com/kku/Image";
 
     @Override
@@ -164,7 +164,7 @@ public class SignUpActivity extends AppCompatActivity {
                 Toast.makeText(context,"Upload Success",Toast.LENGTH_LONG).show();
                 finish();
             } else {
-                Toast.makeText(context,"Upload Unsuccess",Toast.LENGTH_LONG).show();
+                Toast.makeText(context,"Cannot Upload Success",Toast.LENGTH_LONG).show();
             }
         }   // onPost
     }   // AddNewUser Class

@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="kku.kmnc.akaradat.easykku.SignUpActivity"
-    android:background="@drawable/bg19">
+    android:background="@drawable/bg4">
 
     <TextView
         android:text="@string/SignUp"
@@ -19,7 +19,8 @@
         android:id="@+id/textView"
         android:textSize="@dimen/h1"
         android:layout_centerHorizontal="true"
-        android:textColor="#bfbfbf" />
+        android:textColor="@android:color/holo_green_dark"
+        android:background="#abb9b9b9" />
 
     <Button
         android:text="@string/SignUp"
@@ -35,7 +36,7 @@
         android:layout_below="@+id/textView"
         android:layout_above="@+id/button3"
         android:layout_marginTop="15dp"
-        android:background="#74ffffff">
+        android:background="#c3707070">
 
         <ImageView
             android:layout_width="@dimen/icon"
@@ -56,8 +57,8 @@
                 android:id="@+id/editText"
                 android:layout_margin="5dp"
                 android:hint="Name :"
-                android:textColor="@color/aText"
-                android:textColorHint="@color/aText" />
+                android:textColor="@android:color/holo_green_dark"
+                android:textColorHint="@android:color/holo_green_dark" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -67,8 +68,8 @@
                 android:layout_margin="5dp"
                 android:hint="Phone :"
                 android:inputType="number"
-                android:textColor="@color/aText"
-                android:textColorHint="@color/aText" />
+                android:textColor="@android:color/holo_green_dark"
+                android:textColorHint="@android:color/holo_green_dark" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -78,8 +79,8 @@
                 android:id="@+id/editText3"
                 android:layout_margin="5dp"
                 android:hint="User :"
-                android:textColor="@color/aText"
-                android:textColorHint="@color/aText" />
+                android:textColor="@android:color/holo_green_dark"
+                android:textColorHint="@android:color/holo_green_dark" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -89,8 +90,8 @@
                 android:id="@+id/editText4"
                 android:layout_margin="5dp"
                 android:hint="Password :"
-                android:textColor="@color/aText"
-                android:textColorHint="@color/aText" />
+                android:textColor="@android:color/holo_green_dark"
+                android:textColorHint="@android:color/holo_green_dark" />
 
         </LinearLayout>
 
